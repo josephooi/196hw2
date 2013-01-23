@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Online Conflicts Form </title>
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		
+		<style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+
+      .conflicts-form {
+        max-width: 600px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .conflicts-form .conflicts-form-heading,
+      .conflicts-form .checkbox {
+        margin-bottom: 10px;
+      }
+      .conflicts-form input[type="text"],
+      .conflicts-form input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+    </style>
+    
+	</head>
+	<body>
+		<div class="container">
+
+      <form class="conflicts-form">
+        <h2 class="conflicts-form-heading"> PGC Conflicts Form </h2>
+        
+        First name: <input type="text" class="input-block-level" placeholder="Your first name here">
+		Last name: <input type="text" class="input-block-level" placeholder="Your last name here"><br>
+		
+		Date of conflict: <input type="date" name="date"><br>
+		Start time: <input type="time" name="starttime"><br>
+		End time: <input type="time" name="endtime"><br><br>
+			
+		Type of conflict: <br>
+		<label class="radio">
+			<input type="radio" name="type" value="pe">PAC-Excused<br>
+			<input type="radio" name="type" value="e">Excused<br>
+			<input type="radio" name="type" value="gu">Good Unexcused<br>
+			<input type="radio" name="type" value="bu">Bad Unexcused<br><br>	
+		</label>	
+   
+        <button class="btn btn-large btn-primary" type="submit">Submit conflict</button>
+        
+        <br><br>
+		<a href = "http://www.dolphin.upenn.edu/gleeclub/"> Click here for the Penn Glee Club. </a>
+		
+		<br><br>
+		<a href = "mailto:josephooijw@gmail.com"> Email the creator of this webpage. </a>
+      </form>
+      
+      <br>
+		
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>		
+		
+
+    </div> <!-- /container -->
+	</body>
+</html>
